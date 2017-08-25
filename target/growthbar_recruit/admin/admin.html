@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/growthbar.css">
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var str = "<tr><th>编号</th><td>姓名</td><td>学号</td><td>电话</td><td>QQ</td><td>邮箱</td><td>性别</td><td>个人简介</td></tr>"
+		$.ajax({
+		url: "/admin/selectList",
+		type: "POST",
+		dataType: "json",
+//				   data: {account : "zhangjianshun",password:"growthbar"},
+		success: function(data) {
+		var str2 = "";
+		$.each(data.users, function(i, item) {
+		str2 += ("<tr><th>"+i+"</th><td>"+item.user_name+"</td><td>"+item.student_id+"</td><td>"+item.user_tel+"</td><td>"+item.user_qq+"</td><td>"+item.user_email+"</td><td>"+item.user_gender+"</td><td>"+item.user_desc+"</tr>");
+		});
+		$("#display").html(str+str2)
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown) {
+		alert(XMLHttpRequest.responseText);
+		alert(XMLHttpRequest.readyState);
+		alert(textStatus);
+		},
+		});
+		});
+		</script>
+		<title>成长吧招新管理页面</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-static-top growthbar_margin_bottom">
+			<div class="container">
+				<h2 style="text-align: center">成长吧招新管理页面</h2>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="col-xs-12">
+				<table class="table">
+					<thead id="display">
+					</thead>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
