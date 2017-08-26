@@ -14,7 +14,14 @@ import util.DateHelper;
 public class AdminUserController extends Controller {
 
 	public void index() {
-		render("admin.html");
+		String account = getPara("account");
+		String password = getPara("password");
+		setAttr("account",account);
+		setAttr("password",password);
+
+		if ("zhangjianshun".equals(account) && "growthbar".equals(password)) {
+			render("admin.html");
+		}
 	}
 
 	public void save() {
@@ -23,7 +30,7 @@ public class AdminUserController extends Controller {
 		user.setUserDesc(getPara("userDesc"));
 		user.setUserEmail(getPara("userEmail"));
 		user.setUserGender(getPara("userGender"));
-		user.setUserQq(getParaToLong("userQq"));
+		user.setUserQq(getParaToLong("userQQ"));
 		user.setUserTel(getParaToLong("userTel"));
 		user.setUserName(getPara("userName"));
 		user.setApplyTime(DateHelper.getDateTime());

@@ -46,7 +46,7 @@ public class UserController extends Controller {
 		String gender =
 				userGender.length() == 1 && userGender.matches(letterRegEx) ? userGender : null;
 
-		String userQQ = getPara("userQq");
+		String userQQ = getPara("userQQ");
 		Long qq = userQQ.matches(numRegEx) ? Long.valueOf(userQQ) : null;
 
 		String telephone = getPara("userTel");

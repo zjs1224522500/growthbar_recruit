@@ -18,12 +18,16 @@ public class ReflectUtil {
 		Field[] fields = object.getClass().getDeclaredFields();
 		for (Field field : fields) {
 			String name = field.getName();
+			if("dao".equals(name)) {
+				continue;
+			}
 			String beanName = name.substring(0, 1).toUpperCase() + name.substring(1);
 			Method m = object.getClass().getMethod("get" + beanName);
-			String value = (String) m.invoke(object);
+			String value = m.invoke(object).toString();
 			if (null == value || "".equals(value)) {
 				fieldNames = name;
 				submitSuccess = false;
+				break;
 			}
 		}
 		if (submitSuccess) {
