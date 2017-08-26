@@ -7,6 +7,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ddc7f23-2f13-4b03-a152-20d3143dddcd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/growthbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recruit/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/a_little_config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/DemoConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/model/_JFinalDemoGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/model/_MappingKit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/model/base/BaseUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controllers/AdminUserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controllers/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/routes/AdminRoutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/routes/FrontRoutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/type/PropertyInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/Date.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/DateFormatConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/DateHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/ReflectUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/Time.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/a_little_config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/common/DemoConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/common/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/common/model/_JFinalDemoGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/common/model/_MappingKit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/common/model/base/BaseUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/controllers/AdminUserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/controllers/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/routes/AdminRoutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/routes/FrontRoutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/type/PropertyInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/Date.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/DateFormatConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/DateHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/ReflectUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/classes/util/Time.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/lib/druid-1.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/lib/jetty-server-8.1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/lib/jfinal-3.0-bin-with-src.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/admin/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/growthbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/1101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/1102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/1103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/525.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/525_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/activity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/activity_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/activity_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/activity_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/back1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/color_back.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/color_back2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/color_back3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/eat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/form_back1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo1_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo1_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo2_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo2_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo2_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo3_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo3_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/lunbo3_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/psychology.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/team_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/test1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/image/wolf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/EasePack.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/TweenLite.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/demo-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/demo-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/rAF.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/js/welcome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/recruit_growthbar/recruit/form.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -278,22 +395,6 @@
               <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
               <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -609,7 +710,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38695000" />
+    <option name="totallyTimeSpent" value="40186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -632,10 +733,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.796875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52120537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31361607" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13219616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18526785" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
