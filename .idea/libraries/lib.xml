@@ -2,18 +2,12 @@
   <library name="lib">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/WebRoot/WEB-INF/lib" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/druid-1.0.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/jetty-server-8.1.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/jfinal-3.0-bin-with-src.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.16.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/WebRoot/WEB-INF/lib" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/jfinal-3.0-bin-with-src.jar!/" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/WebRoot/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/WebRoot/WEB-INF/lib" recursive="false" type="SOURCES" />
   </library>
 </component>
