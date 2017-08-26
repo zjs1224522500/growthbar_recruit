@@ -1,0 +1,161 @@
+.growthbar_background{
+cursor:crosshair;margin:0; padding:0; position:absolute; overflow:hidden; background: -webkit-linear-gradient(left, #FFCCCC , #66CCFF);
+background: -o-linear-gradient(left, #FFCCCC , #66CCFF);
+background: -moz-linear-gradient(left, #FFCCCC , #66CCFF);left:0; top:0; width:100%; height:100%;
+}
+.growthbar_blank{
+height:30px;
+width: 100%;
+}
+.growthbar_h2{
+text-align: center;
+text-shadow: 2px 2px;
+}
+.growthbar_gradient {
+font-weight: bold;
+font-family: helvetica;
+text-align:center;
+background: -webkit-linear-gradient(left, #F08080 , #87CEFA);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.growthbar_gradient2 {
+font-weight: bold;
+font-family: helvetica;
+text-align:center;
+background: -webkit-linear-gradient(left, #87CEFA , #7CFC00);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.growthbar_gradient3 {
+font-weight: bold;
+font-family: helvetica;
+text-align:center;
+background: -webkit-linear-gradient(left, #7CFC00 , #DA70D6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.growthbar_gradient4 {
+font-weight: bold;
+font-family: helvetica;
+text-align:center;
+background: -webkit-linear-gradient(left, #DA70D6 , #F5FFAA);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.growthbar_div{
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_div:hover{
+transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
+.growthbar_btn{
+background: rgba(0,0,0,0);
+font-size: 18px;
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_btn:hover{
+background: rgba(0,0,0,0);
+font-size: 18px;
+transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
+.growthbar_link{
+text-decoration: none;
+color: #FFFFFF;
+}
+.growthbar_link:hover{
+text-decoration: none;
+color: #FFFFFF;
+}
+.growthbar_margin_bottom{
+margin-bottom: 2px
+}
+.growthbar_activity{
+width: 100%;
+height:100%;
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_activity:hover{
+transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
+.growthbar_form_h1{
+text-align: center;
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_form_h1:hover{
+text-align: center;
+transform:scale(0.8);
+-moz-transform:scale(0.8);
+-webkit-transform:scale(0.8);
+-o-transform:scale(0.8);
+}
+.growthbar_form_btn{
+text-align: center;
+}
+.growthbar_form_back{
+/*background: -webkit-linear-gradient(left, #FFCCCC , #66CCFF);
+background: -o-linear-gradient(left, #FFCCCC , #66CCFF);
+background: -moz-linear-gradient(left, #FFCCCC , #66CCFF);*/
+background-image: url('../image/color_back3.jpg');
+background-position: center,center;
+background-size: cover;
+}
+.growthbar_div_height{
+height: 100%;
+}
+.growthbar_div_thumbnail{
+background:#FFFFFF;
+background-size: 600px,400px;
+}
+.growthbar_div_transmit{
+background-color: rgba(0,0,0,0);
+}
+.growthbar_row_margin_right{
+margin-right: 0;
+}
+span{
+position:absolute;font-family: verdana; font-weight: bold;
+}
+.growthbar_span{
+position:absolute;left:50%;top:50%
+}
+.growthbar_lunbo{
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_lunbo:hover{
+transform:scale(1.05);
+-moz-transform:scale(1.05);
+-webkit-transform:scale(1.05);
+-o-transform:scale(1.05);
+}
+.growthbar_table{
+word-break:break-all;
+word-wrap:break-all;
+}
+.grwothbar_td_width{
+	min-width: 100px;
+}
