@@ -5,8 +5,33 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/growthbar.css">
-		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(document).on('click','#fromSubmit',function(){
+			var dataInf = $("#formVal").serialize();
+			$.ajax({
+				url:'/recruit/save',
+				type:'POST',
+				dataType:'json',
+				data: dataInf,
+				success:function(data){
+					if (data.status==true){
+						alert("提交成功。");
+						window.location.href="../home.html";
+					}
+					else{
+						alert("提交失败，请重新填写。" + data.errorData);
+					}
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown) {
+				alert(XMLHttpRequest.responseText);
+				alert(XMLHttpRequest.readyState);
+				alert(textStatus);
+			},
+			});
+		});
+		</script>
 		<title>成长吧报名表单</title>
 	</head>
 	<body class="growthbar_form_back">
@@ -21,7 +46,7 @@
 			</div>
 			<div class="col-xs-2"></div>
 			<div class="col-xs-8">
-				<form action="/recruit/save" method="post">
+				<form id="formVal">
 					<div class="form-group col-xs-12 col-sm-6">
 						<label>姓名</label>
 						<input type="name" class="form-control growthbar_div_transmit"  placeholder="张三" name="userName">
@@ -53,10 +78,10 @@
 						<label>个人简介</label>
 						<textarea class="form-control growthbar_div_transmit"	name="userDesc"></textarea>
 					</div>
-					<div class="form-group col-xs-12 growthbar_form_btn">
-						<button type="submit" class="btn btn-default growthbar_btn">提交</button>
-					</div>
 				</form>
+				<div class="form-group col-xs-12 growthbar_form_btn">
+					<button type="button" class="btn btn-default growthbar_btn" id="fromSubmit">提交</button>
+				</div>
 			</div>
 			<div class="col-xs-2"></div>
 		</div>

@@ -138,3 +138,10 @@ transform:scale(1.05);
 -webkit-transform:scale(1.05);
 -o-transform:scale(1.05);
 }
+.growthbar_table{
+word-break:break-all;
+word-wrap:break-all;
+}
+.grwothbar_td_width{
+	min-width: 100px;
+}

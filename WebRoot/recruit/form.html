@@ -21,7 +21,7 @@
 						window.location.href="../home.html";
 					}
 					else{
-						alert("提交失败，请重新填写。");
+						alert("提交失败，请重新填写。" + data.errorData);
 					}
 				},
 				error: function(XMLHttpRequest, textStatus, errorThrown) {
@@ -65,7 +65,7 @@
 					</div>
 					<div class="form-group col-xs-12 col-sm-6">
 						<label>邮箱</label>
-						<input type="text" class="form-control growthbar_div_transmit" placeholder="helloworld@xxx.com" name="userEemail">
+						<input type="text" class="form-control growthbar_div_transmit" placeholder="helloworld@xxx.com" name="userEmail">
 					</div>
 					<div class="form-group col-xs-12 col-sm-6">
 						<label>性别</label>

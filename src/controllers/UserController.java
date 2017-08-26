@@ -32,9 +32,9 @@ public class UserController extends Controller {
 		User user = new User();
 
 		String studentId = getPara("studentId");
-		Long stuId = studentId.length() == 13 && studentId.matches(stuIdRegEx) ?
+		Long stuId = (studentId.length() == 13 && studentId.matches(stuIdRegEx) ?
 				Long.valueOf(studentId) :
-				null;
+				null);
 
 		String desc = getPara("userDesc");
 		String userDesc = StringHelper.getLength(desc) >= 20 ? desc : null;
@@ -44,21 +44,21 @@ public class UserController extends Controller {
 
 		String userGender = getPara("userGender");
 		String gender =
-				userGender.length() == 1 && userGender.matches(letterRegEx) ? userGender : null;
+				(userGender.length() == 1 && userGender.matches(letterRegEx) ? userGender : null);
 
 		String userQQ = getPara("userQQ");
 		Long qq = userQQ.matches(numRegEx) ? Long.valueOf(userQQ) : null;
 
 		String telephone = getPara("userTel");
-		Long tel = telephone.length() == 11 && telephone.matches(phoneRegEx) ?
+		Long tel = (telephone.length() == 11 && telephone.matches(phoneRegEx) ?
 				Long.valueOf(telephone) :
-				null;
+				null);
 
 		String userName = getPara("userName");
 		String name =
-				StringHelper.getLength(userName) >= 2 && StringHelper.getLength(userName) <= 6 ?
+				(StringHelper.getLength(userName) >= 2 && StringHelper.getLength(userName) <= 6 ?
 						userName :
-						null;
+						null);
 
 		user.setStudentId(stuId);
 		user.setUserDesc(userDesc);
@@ -70,12 +70,12 @@ public class UserController extends Controller {
 		user.setApplyTime(DateHelper.getDateTime());
 
 		String emptyField = ReflectUtil.findEmptyField(user);
-		if(null == emptyField || "".equals(emptyField)) {
+		if (null == emptyField || "".equals(emptyField)) {
 			boolean saveSuccess = user.save();
 			setAttr("status", saveSuccess);
 		} else {
 			setAttr("status", false);
-			setAttr("errorData",emptyField);
+			setAttr("errorData", emptyField);
 		}
 
 		renderJson();

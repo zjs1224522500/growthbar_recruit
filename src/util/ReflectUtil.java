@@ -1,9 +1,10 @@
 package util;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
+
+import type.PropertyInfo;
 
 /**
  * Version:v1.0 (description:  )
@@ -23,7 +24,7 @@ public class ReflectUtil {
 			}
 			String beanName = name.substring(0, 1).toUpperCase() + name.substring(1);
 			Method m = object.getClass().getMethod("get" + beanName);
-			String value = m.invoke(object).toString();
+			String value = (null == m.invoke(object) ? null : m.invoke(object).toString());
 			if (null == value || "".equals(value)) {
 				fieldNames = name;
 				submitSuccess = false;
@@ -33,7 +34,7 @@ public class ReflectUtil {
 		if (submitSuccess) {
 			return null;
 		} else {
-			return fieldNames + "格式有误哦！";
+			return PropertyInfo.getDesc(fieldNames) + "格式有误哦！";
 		}
 	}
 
