@@ -142,3 +142,6 @@ transform:scale(1.05);
 word-break:break-all;
 word-wrap:break-all;
 }
+.grwothbar_td_width{
+	min-width: 100px;
+}
