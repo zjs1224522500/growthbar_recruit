@@ -1,72 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/growthbar.css">
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript">
-        $(document).on('click', "#submit_btn", function () {
-            var str = "<table class='table'><thead><tr><th>编号</th><td>姓名</td><td>性别</td><td>学号</td><td>电话</td><td>QQ</td><td>邮箱</td><td>报名时间</td><td>个人简介</td></tr>"
-            var str3 = "</thead></table>"
-            var user_account = $("#account").val()
-            var user_password = $("#password").val()
-            var str2 = "";
-
-            $.ajax({
-                       url: "/admin/selectList",
-                       type: "POST",
-                       dataType: "json",
-                       data: {account: user_account, password: user_password},
-                       success: function (data) {
-                           $.each(data.users, function (i, item) {
-                               str2 +=
-                                   ("<tr><th>" + (i + 1) + "</th><td>" + item.user_name
-                                    + "</td><td>" + item.user_gender
-                                    + "</td><td>" + item.student_id + "</td><td>" + item.user_tel
-                                    + "</td><td>" + item.user_qq + "</td><td>" + item.user_email
-                                    + "</td><td>" + item.apply_time + "</td><td>" + item.user_desc
-                                    + "</tr>");
-                           });
-                           $("#form_add").html(str + str2 + str3)
-                       },
-                       error: function (XMLHttpRequest, textStatus, errorThrown) {
-                           alert(XMLHttpRequest.responseText);
-                           alert(XMLHttpRequest.readyState);
-                           alert(textStatus);
-                       },
-                   });
-            $("#form_add").html(str + str2 + str3)
-        });
-    </script>
-    <title>成长吧招新管理页面</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/growthbar.css">
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).on('click',"#submit_btn",function() {
+			var str = "<table class='table table-striped growthbar_table'><thead><tr><th>编号</th><td>姓名</td><td>学号</td><td>电话</td><td>QQ</td><td>邮箱</td><td>性别</td><td>个人简介</td></tr>";
+			var str3 = "</thead></table>";
+			var user_account = $("#account").val();
+			var user_password = $("#password").val();
+			var str2 =""
+			$.ajax({
+			url: "/admin/selectList",
+			type: "POST",
+			dataType: "json",
+			data: {account: user_account, password: user_password},
+			success: function(data) {
+			$.each(data.users, function(i, item) {
+			str2 += ("<tr><th>"+(i+1)+"</th><td>"+item.user_name+"</td><td>"+item.student_id+"</td><td>"+item.user_tel+"</td><td>"+item.user_qq+"</td><td>"+item.user_email+"</td><td>"+item.user_gender+"</td><td>"+item.user_desc+"</tr>");
+			});
+			$("#form_add").html(str+str2+str3);
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+			alert(XMLHttpRequest.responseText);
+			alert(XMLHttpRequest.readyState);
+			alert(textStatus);
+			},
+			});
+			});
+	</script>
+	<title>成长吧招新管理页面</title>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-static-top growthbar_margin_bottom">
-    <div class="container">
-        <h2 style="text-align: center">成长吧招新管理页面</h2>
-    </div>
-</nav>
-<div class="container">
-    <div class="col-xs-12" id="form_add">
-        <div class="col-xs-3"></div>
-        <div class="col-xs-6">
-            <div class="form-group col-xs-12">
-                <label>账户</label>
-                <input type="name" class="form-control growthbar_div_transmit" id="account">
-            </div>
-            <div class="form-group col-xs-12">
-                <label>密码</label>
-                <input type="password" class="form-control growthbar_div_transmit" id="password">
-            </div>
-            <div class="col-xs-12" style="height: 10px"></div>
-            <div class="form-group col-xs-12 growthbar_form_btn" style="text-align: center;">
-                <button class="btn btn-default growthbar_btn" id="submit_btn">提交</button>
-            </div>
-        </div>
-        <div class="col-xs-3"></div>
-    </div>
-</div>
+	<nav class="navbar navbar-default navbar-static-top growthbar_margin_bottom">
+		<div class="container">
+			<h2 style="text-align: center">成长吧招新管理页面</h2>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="col-xs-12" id="form_add">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-6">
+				<div class="form-group col-xs-12">
+					<label>账户</label>
+					<input type="name" class="form-control growthbar_div_transmit" id="account">
+				</div>
+				<div class="form-group col-xs-12">
+					<label>密码</label>
+					<input type="text" class="form-control growthbar_div_transmit" id="password">
+				</div>
+				<div class="col-xs-12" style="height: 10px"></div>
+				<div class="form-group col-xs-12 growthbar_form_btn" style="text-align: center;">
+					<button  class="btn btn-default growthbar_btn" id="submit_btn">提交</button>
+				</div>
+			</div>
+			<div class="col-xs-3"></div>
+		</div>
+	</div>
 </body>
 </html>
