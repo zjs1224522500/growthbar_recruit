@@ -7,140 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ddc7f23-2f13-4b03-a152-20d3143dddcd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/a_little_config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/common/DemoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/common/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/common/model/_JFinalDemoGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/common/model/_MappingKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/common/model/base/BaseUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/controllers/AdminUserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/controllers/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/controllers/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/routes/AdminRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/routes/FrontRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/util/Date.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/util/DateFormatConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/util/DateHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/production/recruit_growthbar/util/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/a_little_config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/common/DemoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/common/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/common/model/_JFinalDemoGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/common/model/_MappingKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/common/model/base/BaseUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/controllers/AdminUserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/controllers/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/controllers/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/routes/AdminRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/routes/FrontRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/type/PropertyInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/Date.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/DateFormatConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/DateHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/ReflectUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/StringHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/recruit_growthbar/util/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/a_little_config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/common/DemoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/common/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/common/model/_JFinalDemoGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/common/model/_MappingKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/common/model/base/BaseUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/controllers/AdminUserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/controllers/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/controllers/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/a_little_config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/common/DemoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/common/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/common/model/_JFinalDemoGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/common/model/_MappingKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/common/model/base/BaseUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/controllers/AdminUserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/controllers/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/controllers/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/routes/AdminRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/routes/FrontRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/util/Date.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/util/DateFormatConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/util/DateHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/production/recruit_growthbar/util/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/routes/AdminRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/routes/FrontRoutes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/type/PropertyInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/Date.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/DateFormatConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/DateHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/ReflectUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/StringHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/classes/util/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/lib/druid-1.0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/lib/jetty-server-8.1.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/lib/jfinal-3.0-bin-with-src.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/admin/admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/growthbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/1101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/1102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/1103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/525.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/525_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/activity.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/activity_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/activity_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/activity_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/back1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/eat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/form_back1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo1_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo1_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo2_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo2_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo2_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo3_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo3_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/lunbo3_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/psychology.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/team_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/image/wolf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/EasePack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/TweenLite.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/demo-2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/demo-3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/rAF.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/js/welcome.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/growthbar_recruit/recruit/form.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.html" afterPath="$PROJECT_DIR$/WebRoot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recruit_growthbar.iml" afterPath="$PROJECT_DIR$/recruit_growthbar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/IndexController.java" afterPath="$PROJECT_DIR$/src/controllers/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,6 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -187,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+              <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -201,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/WebRoot/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -241,16 +118,6 @@
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/recruit/form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -742,11 +609,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36581000" />
+    <option name="totallyTimeSpent" value="38695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -766,9 +632,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25111607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.796875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31361607" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31361607" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13219616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -962,14 +828,6 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jfinal-3.0-bin-with-src.jar!/com/jfinal/core/JFinalFilter.java" />
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/image/11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1198,7 +1056,7 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1206,7 +1064,15 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
