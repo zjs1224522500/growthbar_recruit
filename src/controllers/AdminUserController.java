@@ -14,18 +14,26 @@ import util.DateHelper;
 public class AdminUserController extends Controller {
 
 	public void index() {
-		String account = getPara("account");
-		String password = getPara("password");
-		setAttr("account",account);
-		setAttr("password",password);
-
-		if ("zhangjianshun".equals(account) && "growthbar".equals(password)) {
-			render("admin.html");
-		}
+		render("admin.html");
 	}
 
-	public void save() {
+	public void delete() {
+
+		String account = getPara("account");
+		String password = getPara("password");
+
+		boolean status = false;
+		if ("zhangjianshun".equals(account) && "growthbar".equals(password)) {
+			int userId = getParaToInt("userId");
+			status = User.dao.deleteById(userId);
+		}
+		setAttr("status", status);
+		renderJson();
+	}
+
+	public void update() {
 		User user = new User();
+		user.setUserId(getParaToInt("userId"));
 		user.setStudentId(getParaToLong("studentId"));
 		user.setUserDesc(getPara("userDesc"));
 		user.setUserEmail(getPara("userEmail"));
@@ -34,30 +42,15 @@ public class AdminUserController extends Controller {
 		user.setUserTel(getParaToLong("userTel"));
 		user.setUserName(getPara("userName"));
 		user.setApplyTime(DateHelper.getDateTime());
-		boolean saveSuccess = user.save();
-		setAttr("status", saveSuccess);
-		renderJson();
-	}
 
-	public void delete() {
-		int userId = getParaToInt("userId");
-		boolean deleteSuccess = User.dao.deleteById(userId);
-		setAttr("status", deleteSuccess);
-		renderJson();
-	}
+		String account = getPara("account");
+		String password = getPara("password");
 
-	public void update() {
-		User user = new User();
-		user.setStudentId(getParaToLong("studentId"));
-		user.setUserDesc(getPara("userDesc"));
-		user.setUserEmail(getPara("userEmail"));
-		user.setUserGender(getPara("userGender"));
-		user.setUserQq(getParaToLong("userQq"));
-		user.setUserTel(getParaToLong("userTel"));
-		user.setUserName(getPara("userName"));
-		user.setApplyTime(DateHelper.getDateTime());
-		boolean updateSuccess = user.update();
-		setAttr("status", updateSuccess);
+		boolean status = false;
+		if ("zhangjianshun".equals(account) && "growthbar".equals(password)) {
+			status = user.update();
+		}
+		setAttr("status", status);
 		renderJson();
 	}
 
@@ -72,7 +65,7 @@ public class AdminUserController extends Controller {
 			status = true;
 			setAttr("user", user);
 		}
-		setAttr("status",status);
+		setAttr("status", status);
 		renderJson();
 	}
 
@@ -83,11 +76,11 @@ public class AdminUserController extends Controller {
 
 		boolean status = false;
 		if ("zhangjianshun".equals(account) && "growthbar".equals(password)) {
-			List<User> userList = User.dao.find("SELECT * FROM user");
+			List<User> userList = User.dao.find("SELECT * FROM user ORDER BY apply_time DESC");
 			setAttr("users", userList);
 			status = true;
 		}
-		setAttr("status",status);
+		setAttr("status", status);
 		renderJson();
 	}
 }
