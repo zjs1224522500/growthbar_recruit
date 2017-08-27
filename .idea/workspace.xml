@@ -117,6 +117,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/recruit_growthbar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/recruit_growthbar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/recruit_growthbar_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/recruit_growthbar_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/recruit/form.html" afterPath="$PROJECT_DIR$/WebRoot/recruit/form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recruit_growthbar.iml" afterPath="$PROJECT_DIR$/recruit_growthbar.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -142,11 +143,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminUserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminUserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/AdminUserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1464">
               <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/recruit/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -315,6 +326,12 @@
               <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
               <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
               <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="recruit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruit_growthbar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruit_growthbar" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -350,11 +367,11 @@
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\recruit_growthbar\WebRoot\recruit" />
       <recent name="E:\Users\Administrator\recruit_growthbar\WebRoot\admin" />
       <recent name="E:\Users\Administrator\recruit_growthbar\WebRoot" />
       <recent name="E:\Users\Administrator\recruit_growthbar\WebContent" />
       <recent name="E:\Users\Administrator\recruit_growthbar\src\util" />
-      <recent name="E:\Users\Administrator\recruit_growthbar\src\common\model\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -642,11 +659,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45152000" />
+    <option name="totallyTimeSpent" value="45209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -661,7 +677,7 @@
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6171875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4720982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4720982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -774,6 +790,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1503728629024" expanded="false" signature="2461:2479" ph="..." />
+            <marker date="1503728629024" expanded="false" signature="3081:3093" ph="..." />
+            <marker date="1503728629024" expanded="false" signature="3174:3193" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -947,13 +968,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/recruit/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <marker date="1503728629024" expanded="false" signature="2461:2479" ph="..." />
+            <marker date="1503728629024" expanded="false" signature="3081:3093" ph="..." />
+            <marker date="1503728629024" expanded="false" signature="3174:3193" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,6 +1062,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1464">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/recruit/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding />
         </state>
       </provider>
