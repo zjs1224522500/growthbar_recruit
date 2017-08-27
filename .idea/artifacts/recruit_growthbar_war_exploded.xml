@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="recruit_growthbar" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="druid-1.0.5" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="recruit_growthbar/web/Web" />
     </root>
