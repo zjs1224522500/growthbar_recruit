@@ -7,20 +7,33 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+        setTimeout(function(){
+        $("#display").html('<h3 class="six-title">文字 爱情 旅行</h3>')
+        },1000);
+        setTimeout(function(){
+        $("#display").html('<h3 class="six-title growthbar_title">九月成电相遇</h3>')
+        },2000);
+        setTimeout(function(){
+        $("#display").html('<h3 class="six-title growthbar_title">我们倾听你的故事</h3>');
+        },3000);
+        setTimeout(function(){
+        $("#display").html('<h3 class="six-title growthbar_title">我们是成长吧</h3>')
+        },4000);
+        setTimeout(function(){
+        $("#display").html('<h3 class="six-title growthbar_title"><a href="home.html">点我加入</a></h3>')
+        },5000);
+        </script>
     </head>
     <body>
         <div class="container growthbar">
             <div class="content">
                 <div id="large-header" class="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <h3 class="one-title growthbar_title">青春有梦</h3>
-                    <h3 class="second-title growthbar_title">文字 爱情 旅行</h3>
-                    <h3 class="three-title growthbar_title">九月成电相遇</h3>
-                    <h3 class="four-title growthbar_title">我们倾听你的故事</h3>
-                    <h3 class="seven-title">我们</h3>
-                    <h3 class="eight-title">是</h3>
-                    <h3 class="five-title">成长吧</h3>
-                    <h3 class="six-title"><a href="home.html">点我加入</a></h3>
+                    <div id="display">
+                        <h3 class="six-title" id="display">青春有梦</h3>
+                    </div>
                 </div>
             </div>
         </div>
