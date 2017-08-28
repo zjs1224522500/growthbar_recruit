@@ -3,40 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../css/bootstrapValidator.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/growthbar.css">
 		<script type="text/javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-		$(document).on('click','#fromSubmit',function(){
-			var dataInf = $("#formVal").serialize();
-			if($("#userName").val()==''||$("#studentId").val()==''||$("#userTel").val()==''||$("#userEmail").val()==''||$("#userDesc").val()==''||$("#userQQ").val()==''){
-				alert("请检查是否填写完全。");
-			}else{
-				$.ajax({
-				url:'/recruit_growthbar/recruit/save',
-				type:'POST',
-				dataType:'json',
-				data: dataInf,
-				success:function(data){
-					if (data.status==true){
-						alert("提交成功。");
-						window.location.href="../home.html";
-					}
-					else{
-						alert("提交失败，请重新填写。" + data.errorData);
-					}
-				},
-				error: function(XMLHttpRequest, textStatus, errorThrown) {
-				alert(XMLHttpRequest.responseText);
-				alert(XMLHttpRequest.readyState);
-				alert(textStatus);
-			},
-			});
-			}
-			
-		});
-		</script>
+		<script src="../js/bootstrapValidator.js"></script>
+		<script type="text/javascript" src="../js/form.js"></script>
 		<title>成长吧报名表单</title>
 	</head>
 	<body class="growthbar_form_back">
