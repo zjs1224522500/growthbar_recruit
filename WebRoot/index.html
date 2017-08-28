@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
         <title>成长吧招新欢迎页</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -10,20 +10,20 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript">
         setTimeout(function(){
-        $("#display").html('<h3 class="six-title">文字 爱情 旅行</h3>')
+        $("#display1").fadeToggle('slow');
+        },500);
+        setTimeout(function(){
+        $("#display2").fadeToggle('slow');
         },1000);
         setTimeout(function(){
-        $("#display").html('<h3 class="six-title growthbar_title">九月成电相遇</h3>')
+        $("#display3").fadeToggle('slow');
+        },1500);
+        setTimeout(function(){
+        $("#display4").fadeToggle('slow');
         },2000);
-        setTimeout(function(){
-        $("#display").html('<h3 class="six-title growthbar_title">我们倾听你的故事</h3>');
-        },3000);
-        setTimeout(function(){
-        $("#display").html('<h3 class="six-title growthbar_title">我们是成长吧</h3>')
-        },4000);
-        setTimeout(function(){
-        $("#display").html('<h3 class="six-title growthbar_title"><a href="home.html">点我加入</a></h3>')
-        },5000);
+        // setTimeout(function(){
+        // $("#display2").html(''+'');
+        // },2000);
         </script>
     </head>
     <body>
@@ -31,8 +31,21 @@
             <div class="content">
                 <div id="large-header" class="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <div id="display">
-                        <h3 class="six-title" id="display">青春有梦</h3>
+                    <div>
+                    </div>
+                    <div id="display1" hidden>
+                        <h3 class="six-title">青春有梦</h3>
+                    </div>
+                    <div id="display2" hidden>
+                        <h3 class="one-title">文字 爱情 旅行</h3>
+                    </div>
+                    <div id="display3" hidden>
+                        <h3 class="two-title">九月成电相遇</h3>
+                    </div>
+                    <div id="display4" hidden>
+                        <h3 class="three-title">倾听你的故事</h3>
+                    </div>
+                    <div><h3 class="main-title"><a href="home.html">点我加入</a></h3>
                     </div>
                 </div>
             </div>
