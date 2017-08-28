@@ -62,6 +62,7 @@ transition:width 2s, height 2s;
 -moz-transition:width 2s, height 2s, -moz-transform 2s;
 -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
 -o-transition:width 2s, height 2s, -o-transform 2s;
+border-color: #660066;
 }
 .growthbar_btn:hover{
 background: rgba(0,0,0,0);
@@ -70,6 +71,7 @@ transform:scale(1.2);
 -moz-transform:scale(1.2);
 -webkit-transform:scale(1.2);
 -o-transform:scale(1.2);
+border-color: #FF33FF;
 }
 .growthbar_link{
 text-decoration: none;
@@ -120,6 +122,7 @@ background: -moz-linear-gradient(left, #FFCCCC , #66CCFF);*/
 background-image: url('../image/color_back3.jpg');
 background-position: center,center;
 background-size: cover;
+background-repeat: no-repeat;
 }
 .growthbar_div_height{
 height: 100%;
@@ -129,6 +132,9 @@ background:#FFFFFF;
 background-size: 600px,400px;
 }
 .growthbar_div_transmit{
+background-color: rgba(0,0,0,0);
+}
+.growthbar_div_transmit_change{
 background-color: rgba(0,0,0,0);
 }
 .growthbar_row_margin_right{
@@ -158,4 +164,10 @@ word-wrap:break-all;
 }
 .grwothbar_td_width{
 	min-width: 100px;
+}
+.navbar-default .navbar-link {
+    color: #CC0000;
+}
+.navbar-default .navbar-link:hover {
+    color: #CC0000;
 }
