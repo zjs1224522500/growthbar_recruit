@@ -183,3 +183,9 @@ transform:scale(1.05);
 -webkit-transform:scale(1.05);
 -o-transform:scale(1.05);
 }
+.growthbar_index_back{
+background-image: url('../image/white.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}

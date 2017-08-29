@@ -8,7 +8,7 @@ background-position: center center;
 z-index: 1;
 }
 .growthbar .large-header {
-background-image: url('../image/black.jpg');
+background-image: url('../image/white.jpg');
 /*background-position: center center;*/
 }
 .six-title{
@@ -25,7 +25,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: -webkit-linear-gradient(left, #FFFFFF , #FFFFFF);
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -43,7 +43,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: -webkit-linear-gradient(left, #FFFFFF , #FFFFFF);
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -61,7 +61,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: -webkit-linear-gradient(left, #FFFFFF , #FFFFFF);
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -79,7 +79,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: -webkit-linear-gradient(left, #FFFFFF , #FFFFFF);
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -97,7 +97,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: -webkit-linear-gradient(left, #FFFFFF , #FFFFFF);
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -115,7 +115,7 @@ padding-left: 10px;
 text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /*font-weight: bold;*/
 font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-background: #FFFF33;
+background: #000000;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
