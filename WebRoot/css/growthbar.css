@@ -171,3 +171,15 @@ word-wrap:break-all;
 .navbar-default .navbar-link:hover {
     color: #CC0000;
 }
+.growthbar_li_big{
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-o-transition:width 2s, height 2s, -o-transform 2s;
+}
+.growthbar_li_big:hover{
+transform:scale(1.05);
+-moz-transform:scale(1.05);
+-webkit-transform:scale(1.05);
+-o-transform:scale(1.05);
+}

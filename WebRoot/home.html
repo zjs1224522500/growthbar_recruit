@@ -9,21 +9,83 @@
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			$("#growthbarCarousel").carousel();
+			$(document).on('click','#queTen',function(){
+				$("#addQue").fadeToggle('slow');
+				$("#hiddenPic").fadeToggle('slow');
+			});
+			$(document).on('click','#backHome',function(){
+				window.location.href='home.html';
+			});
 		</script>
 		<title>成长吧招新主页</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-static-top growthbar_margin_bottom navbar-fixed-top">
 			<div class="container">
-				<a class="navbar-brand">成长吧介绍</a>
+				<a class="navbar-brand" id="backHome">成长吧展示</a>
+				<a class="navbar-brand" id="queTen">新生问答☺点我哟</a>
 				<p class="navbar-text navbar-right"><a href="recruit/form.html" class="navbar-link">加入我们</a></p>
 			</div>
 		</nav>
 		<div class="container">
 		<div class="col-xs-12" style="width: 100px; height: 60px;"></div>
 			<div>
-				<img src="image/1.png" class="thumbnail col-xs-12">
+				<img src="image/1.png" class="thumbnail col-xs-12">			
 			</div>
+		<div class="col-xs-12" id="addQue" hidden>
+		<ul class="list-unstyled">
+			<li class="alert alert-success growthbar_li_big">
+			<strong>第一问：成长吧是一个怎样的社团?</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-info growthbar_li_big">
+			<strong>第二问：成长吧平时有什么任务，有什么活动？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-warning growthbar_li_big">
+			<strong>第三问：成长吧会定期给成员送福利吗？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-success growthbar_li_big">
+			<strong>第四问：如果我加入成长吧，我的能力能得到怎样的提升?</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-info growthbar_li_big">
+			<strong>第五问：加入成长吧会很忙很累吗？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-warning growthbar_li_big">
+			<strong>第六问：成长吧能给我们提供一个怎样得平台让我们展示自己呢？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-success growthbar_li_big">
+			<strong>第七问：成长吧的活动是大一到大四的同学一起参与吗？会分校区吗？</strong><br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-info growthbar_li_big">
+			<strong>第八问：成长吧是如何招新的，会选什么样的同学？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-warning growthbar_li_big">
+			<strong>第九问：成长吧的组成？每个成员都有分工任务吗？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+			<li class="alert alert-danger growthbar_li_big">
+			<strong>第十问：成长吧的团队活动有哪些？</strong>
+			<br>
+			<p>待回答</p>
+			</li>
+		</ul>
+		</div>
+		<div id="hiddenPic">
 			<div id="growthbarCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 				<ol class="carousel-indicators" style="bottom: 1px">
 					<li data-target="#growthbarCarousel" data-slide-to="0" class="active" style="width:6px;height: 6px;"></li>
@@ -130,6 +192,7 @@
 							<img src="image/team_1.png" class="img-responsive">
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
